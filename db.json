@@ -1,0 +1,28 @@
+{
+  "cars": [
+    {
+      "brand": "Fiat",
+      "model": "126p",
+      "year": "2000",
+      "id": 1
+    },
+    {
+      "brand": "Porsche",
+      "model": "Carrera",
+      "year": "2005",
+      "id": 2
+    },
+    {
+      "brand": "Audi",
+      "model": "GTS",
+      "year": "2018",
+      "id": 3
+    },
+    {
+      "brand": "Ford",
+      "model": "Focus",
+      "year": "1998",
+      "id": 4
+    }
+  ]
+}

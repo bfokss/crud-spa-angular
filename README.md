@@ -1,27 +1,50 @@
 # SpaRestApi
+### :man_student: This project is my final SPA for RIA classes at Collegium Da Vinci. :monocle_face: 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+#### Used technologies:<br>
 
-## Development server
+:point_right: <a href="https://angular.io/">Angular</a><br>
+:point_right: <a href="https://getbootstrap.com/">Bootstrap</a><br>
+:point_right: <a href="https://www.npmjs.com/package/json-server">json server</a> 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Main page view: 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Main page view](https://media.giphy.com/media/u6GmPfTOyW1YyWvNWx/giphy.gif)
 
-## Build
+# Functionalities:
+<ul>
+<li>Adding data</li>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Adding data gif](https://media.giphy.com/media/WvrkrBVlDB86oLd7uY/giphy.gif)
 
-## Running unit tests
+<li>Editing data</li>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Editing data gif](https://media.giphy.com/media/coVFpGLZlEREBjFLJT/giphy.gif)
 
-## Running end-to-end tests
+<li>Removing data</li>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![Removing data gif](https://media.giphy.com/media/z3JvsPB0WAtrhPy1An/giphy.gif)
 
-## Further help
+<li>Searching data</li>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Searching data gif](https://media.giphy.com/media/7aHDe9BuLfQUU1pG8B/giphy.gif)
+
+<li>Sorting data</li>
+
+![Sorting data gif](https://media.giphy.com/media/jLxPXoQUqTcn8FV9rl/giphy.gif)
+
+</ul>
+
+<br>
+
+# Credits
+
+<br>
+
+:adult: <a href="https://github.com/bfokss"> bfokss </a>
+
+<br>
+
+# More
+###### This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.

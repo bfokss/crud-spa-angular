@@ -1,0 +1,19 @@
+<form *ngIf="showAddCar" #cars_form="ngForm" (ngSubmit)="onSubmit(cars_form)">
+    <div class="form-control">
+
+        <!-- Car brand -->
+        <label for="text"> <b>Car brand</b> </label>
+        <input type="text" name="brand" [(ngModel)]="brand" id="brand" placeholder="Write car brand" />
+
+
+        <!-- Car model -->
+        <label for="text"> <b>Car model</b> </label>
+        <input type="text" name="model" [(ngModel)]="model" id="model" placeholder="Write car model" />
+
+        <!-- Car year -->
+        <label for="text"> <b>Car year</b> </label>
+        <input type="text" name="year" [(ngModel)]="year" id="year" placeholder="Write car year" />
+
+        <input type="submit" class="btn btn-block" value="Save car" />
+    </div>
+</form>

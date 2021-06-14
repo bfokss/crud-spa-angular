@@ -1,0 +1,55 @@
+<app-add-car (onAddCar)="addCar($event)"></app-add-car>
+<input class="form-control" type="text" name="Brand" [(ngModel)]="brandName" (ngModelChange)="onFilterBrand()"
+    placeholder="Enter Brand name">
+<table class='table table-striped'>
+    <thead>
+        <tr>
+            <th (click)="onSortId()" class="sort">
+                <span class=""> #</span>
+            </th>
+            <th (click)="onSortBrand()" class="sort">
+                <span class=""> Brand</span>
+            </th>
+            <th (click)="onSortModel()" class="sort">
+                <span class=""> Model</span>
+            </th>
+            <th (click)="onSortYear()" class="sort">
+                <span class=""> Year</span>
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let car of cars" ng-repeat="let car of cars ">
+            <td>
+                <b>{{car.id}}</b>
+            </td>
+            <td>
+                <input [(ngModel)]="car.brand" placeholder="Brand" />
+            </td>
+            <td>
+                <input [(ngModel)]="car.model" placeholder="Model" />
+            </td>
+            <td>
+                <input [(ngModel)]="car.year" placeholder="Year" />
+            </td>
+
+            <td>
+                <a href="">
+                    <span class="icons">
+                        <fa-icon (click)="onUpdate(car)" [ngStyle]="{color: 'blue'}" [icon]="faPencil"></fa-icon>
+                    </span>
+                </a>
+
+                <a href="">
+                    <span class="icons">
+                        <fa-icon (click)="onDelete(car)" [ngStyle]="{color: 'red'}" [icon]="faTrash"></fa-icon>
+                    </span>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+
+
+
+</table>
